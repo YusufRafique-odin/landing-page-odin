@@ -16,11 +16,11 @@ a {
     text-decoration: none;
 }
 
-h1, .topheader-container {
+.header-container h1, .topheader-container {
     color: white;
 }
 
-button {
+.header-container button {
     color: white;
     background-color: #3882F6;
     border-radius: 6px;
@@ -154,7 +154,7 @@ li, .hero-main p {
 
 .quote-text-container p {
     font-size: 36px;
-    color: #1F2937;
+    color: #1f2937bc;
     font-weight: 300;
 }
 
@@ -162,4 +162,69 @@ li, .hero-main p {
     font-size: 18px;
     color: #1F2937;
     font-weight: 700;
+}
+
+.prefooter-container {
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signup-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container h1, .signup-container .signup-button-container button {
+    color: #F9FAF8;
+}
+
+.signup-button-container button {
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    border-radius: 6px;
+    padding: 4px 20px;
+}
+
+
+.signup-container p {
+    color: #E5E7EB;
+}
+
+.footer-container h1 {
+    color: #F9FAF8;
+}
+
+.footer-container p {
+    color: #E5E7EB;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content h1, .footer-container p {
+    font-size: 18px;
 }
