@@ -1,5 +1,9 @@
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -12,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-h1, p, .topheader-container {
+h1, .topheader-container {
     color: white;
 }
 
@@ -33,7 +37,7 @@ button {
 .topheader-container {
     display: flex;
     margin-bottom: 48px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 900px;
     justify-content: space-between;
 }
@@ -81,4 +85,81 @@ li, .hero-main p {
 .topheader-container p {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
+}
+
+.card-text img {
+    height: 150px;
+    width: 150px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    height: 535px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 280px;
+    height: 280px;
+    text-align: center;
+}
+
+.info-container img {
+    border-radius: 10px;
+    border: solid black;
+    margin-bottom: 5px;
+}
+
+.quote-container {
+    height: 535px;
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+}
+
+.author-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-text-container p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-text-container .author-container p {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 700;
 }
